@@ -1,0 +1,84 @@
+*{
+
+    /*RESETANDO AS CONFIGURAÇÕES DO CHROME*/
+    padding: 0;
+    margin: 0;
+
+    /*TER COMO REFERENCIA A BORDA DOS ELEMENTOS*/
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+
+    /*DEIXA A IMAGEM DO BACKGROUND SEM REPETIR*/
+    background: url('img/bg.jpg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*ALTURA "VH" = VIEW PORT ALTURA TOTAL*/
+    height: 100%;
+
+    /*LARGURA DE 100% PARA OCUPAR TODO O ESPAÇO DA TELA*/
+    width: 100%;
+    
+    /*ALINHAR NO CENTRO*/
+    display: flex;
+    /*ALINHAR NA ORIZONTAL*/
+    justify-content: center;
+    /*ALINHAR NA VERTICAL*/
+    align-items: center;
+
+    /*COR DO TEXTO*/
+    color: #434343;
+
+    font-size: 16px;
+}
+
+
+.div-comprar{   
+
+    margin-top: 40%;
+    text-align:end;
+}
+
+.btn-comprar {
+    
+    text-align: center;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    right: 5%;
+    
+}
+
+.container{
+
+    align-items: center;
+}
+
+h1 {
+    color: #4CAF50;
+    width: 59%;
+}
+
+.card {
+
+    height: 100%;
+}
+
+.card-body{
+    position: relative;
+}
+
+
