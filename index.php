@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="filtro.php">
 </head>
 <body>
-
+    <?php
+    ?>
     <div class="container-fluid container">
 
         <!--NAVBAR-->
